@@ -89,9 +89,9 @@ var testArray = [2,3,4]; //eslint-disable-line
 function sumArray(testArray){
   var start = 0; //eslint-disable-line
   for(var i = 0; i < testArray.length; i++) {
-  start = sum(start,testArray[i])[0];
+    start = sum(start,testArray[i])[0];
   }
-  var secondElement = (testArray + ' was passed in as an array of numbers, and ' + start + ' is their sum.')
+  var secondElement = (testArray + ' was passed in as an array of numbers, and ' + start + ' is their sum.');
   return [start,secondElement];
 }
 
